@@ -4,12 +4,7 @@
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
+
 body {
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.6;
@@ -22,7 +17,7 @@ body.fh5co-offcanvas {
   overflow: hidden; }
 
 a {
-  color: #203336;
+  color: #ffffff;
   -webkit-transition: 0.5s, ease;
   -o-transition: 0.5s, ease;
   transition: 0.5s, ease; }
@@ -37,7 +32,7 @@ p, ul, ol {
   font-family: "Open Sans", Arial, sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #5a5a5a;
+  color: #ffffff;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0; }
@@ -82,6 +77,7 @@ figure {
   margin-left: 0; }
 .header-top .fh5co-link a:hover {
   color: white !important; }
+  
 @media screen and (max-width: 768px) {
   .header-top .fh5co-link {
     text-align: center; } }
@@ -187,7 +183,7 @@ figure {
   color: #fff;
   font-weight: 400; }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner .price {
-  color: #203336; }
+  color: #ffffff; }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner p {
   font-size: 18px;
   color: rgba(255, 255, 255, 0.9); }
@@ -231,7 +227,7 @@ figure {
 #fh5co-hero .flexslider .slider-text > .slider-text-inner .heading-title {
   font-size: 60px; }
 
-/* Superfish Override Menu */
+
 .sf-menu {
   margin: 7px 0 0 0 !important; }
 
@@ -245,7 +241,7 @@ figure {
   width: 12em; }
 
 .sf-menu a {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.576);
   padding: 0.75em 1em !important;
   font-weight: normal;
   border-left: none;
@@ -257,7 +253,7 @@ figure {
   border-bottom: none !important;
   font-weight: bold; }
 .sf-menu a:hover, .sf-menu a:focus {
-  color: #203336 !important; }
+  color: #ffffff !important; }
 
 .sf-menu li.active a:hover, .sf-menu li.active a:focus {
   color: #203336; }
@@ -313,7 +309,7 @@ figure {
   left: 0;
   width: 100%;
   z-index: 1022;
-  background: #fff; }
+  background: #203336; }
 
 .nav-header {
   position: relative;
@@ -333,8 +329,8 @@ figure {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 16px;
-  color: #203336;
+  font-size: 15px;
+  color: #ffffff;
   background: rgba(0, 0, 0, 0.06);
   padding: 10px;
   -webkit-border-radius: 50%;
@@ -342,9 +338,9 @@ figure {
   -ms-border-radius: 50%;
   border-radius: 50%; }
 #fh5co-logo a {
-  color: #203336; }
+  color: #ffffff; }
 #fh5co-logo a:hover, #fh5co-logo a:focus {
-  color: #203336 !important; }
+  color: #ffffff !important; }
 #fh5co-logo span {
   font-weight: 300; }
 
@@ -358,7 +354,7 @@ figure {
   padding: 1em .75em; }
 
 #fh5co-primary-menu > li > ul li.active > a {
-  color: #203336 !important; }
+  color: #ffffff !important; }
 #fh5co-primary-menu > li > .sf-with-ul:after {
   border: none !important;
   font-family: 'icomoon';
@@ -368,7 +364,6 @@ figure {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: absolute;
@@ -378,7 +373,7 @@ figure {
   font-size: 12px;
   margin-top: -7px;
   content: "\e922";
-  color: rgba(0, 0, 0, 0.5); }
+  color: rgba(252, 252, 252, 0.5); }
 #fh5co-primary-menu > li > ul li {
   position: relative; }
 #fh5co-primary-menu > li > ul li > .sf-with-ul:after {
@@ -390,7 +385,6 @@ figure {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: absolute;
@@ -403,7 +397,7 @@ figure {
 
 #fh5co-primary-menu .fh5co-sub-menu {
   padding: 10px 7px 10px;
-  background: #fff;
+  background: #ffffff;
   left: 0;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -595,7 +589,14 @@ div.cs-select span {
 
 #fh5co-blog-section, #fh5co-features, #fh5co-popular-properties, #fh5co-properties, #fh5co-testimonial, #fh5co-about, #fh5co-contact, .fh5co-content-section {
   clear: both;
-  padding: 7em 0; }
+  padding: 7em 0;
+ }
+#fh5co-blog-section{
+  background-color: #203336;
+}
+.prod-titlex,h5,h3,p,a{
+  color: #000;
+}
 @media screen and (max-width: 768px) {
   #fh5co-blog-section, #fh5co-features, #fh5co-popular-properties, #fh5co-properties, #fh5co-testimonial, #fh5co-about, #fh5co-contact, .fh5co-content-section {
     padding: 4em 0; } }
@@ -1043,7 +1044,7 @@ div.cs-select span {
 .fh5co-blog .blog-text {
   margin-bottom: 30px;
   position: relative;
-  background: #fff;
+  background: #ffffff;
   width: 100%;
   padding: 30px;
   float: right;
@@ -1088,7 +1089,7 @@ div.cs-select span {
   color: #5a5a5a; }
 
 #footer {
-  background: #393e46;
+  background: #203336;
   padding: 60px 0 40px; }
 #footer p {
   color: rgba(255, 255, 255, 0.7);
@@ -1383,5 +1384,3 @@ div.cs-select span {
   height: 100%;
   z-index: 9999;
   background: url(../images/hourglass.svg) center no-repeat #222222; }
-
-/*# sourceMappingURL=style.css.map */
